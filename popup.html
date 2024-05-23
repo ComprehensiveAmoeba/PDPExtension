@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HeROAS ASIN Opener</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 10px;
+      width: 300px;
+      background-color: #9e00ff; /* Background color from the icon */
+      color: #ff6f00; /* Text color from the icon */
+    }
+    input, select, button {
+      display: block;
+      margin-bottom: 10px;
+      width: 90%;
+      padding: 5px;
+      box-sizing: border-box;
+      border: 2px solid #39ffff; /* Border color from the icon */
+      border-radius: 5px;
+      background-color: #ffffff;
+      color: #000000;
+    }
+    button {
+      background-color: #ff6f00; /* Button background color from the icon */
+      color: #ffffff;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #ff9500; /* Slightly different color for hover effect */
+    }
+    h2 {
+      font-size: 18px;
+      color: #39ffff; /* Header color from the icon */
+    }
+  </style>
+</head>
+<body>
+  <h2>HeROAS ASIN Opener</h2>
+  <input type="text" id="asin" placeholder="Enter ASIN" />
+  <select id="marketplace">
+    <option value="com">Amazon.com</option>
+    <option value="co.uk">Amazon.co.uk</option>
+    <option value="de">Amazon.de</option>
+    <option value="fr">Amazon.fr</option>
+    <option value="jp">Amazon.co.jp</option>
+    <option value="ca">Amazon.ca</option>
+  </select>
+  <button id="open-btn">Open PDP</button>
+  <script src="popup.js"></script>
+</body>
+</html>
